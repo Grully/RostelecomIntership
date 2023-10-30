@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Objects;
 
-class ClassroomDataGroups {
+public class ClassroomDataGroups {
     Person[][] groupsData;
     final int CAPACITY = 13;
 

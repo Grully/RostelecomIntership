@@ -1,11 +1,11 @@
-package FirstTaskDataStructure;
+package SecondTask.Person;
 
 public class Person {
 
-    String lastName;
+    public String lastName;
     String firstName;
     int age;
-    int group;
+    public int group;
     int physics;
     int mathematics;
     int rus;
@@ -42,7 +42,8 @@ public class Person {
         this.informatics = informatics;
     }
 
-    int averageScore (Person person) {
+    public int averageScore(Person person) {
         return (person.physics + person.geometry + person.informatics + person.literature + person.rus + person.mathematics) / 6;
     }
+
 }

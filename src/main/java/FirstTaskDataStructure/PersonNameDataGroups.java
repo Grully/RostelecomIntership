@@ -31,6 +31,7 @@ public class PersonNameDataGroups {
 
     }
 
+
     public Person[] getPersons(char firstLetter) {
 
         return groupsData[firstLetter - 1040];
