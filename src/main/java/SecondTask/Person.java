@@ -1,11 +1,11 @@
-package SecondTask.Person;
+package SecondTask;
 
 public class Person {
 
-    public String lastName;
+    String lastName;
     String firstName;
     int age;
-    public int group;
+    int group;
     int physics;
     int mathematics;
     int rus;
@@ -42,8 +42,7 @@ public class Person {
         this.informatics = informatics;
     }
 
-    public int averageScore(Person person) {
+    int averageScore (Person person) {
         return (person.physics + person.geometry + person.informatics + person.literature + person.rus + person.mathematics) / 6;
     }
-
 }
