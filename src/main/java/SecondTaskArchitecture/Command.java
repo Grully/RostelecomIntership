@@ -1,4 +1,4 @@
-package SecondTask;
+package SecondTaskArchitecture;
 
 import java.io.IOException;
 

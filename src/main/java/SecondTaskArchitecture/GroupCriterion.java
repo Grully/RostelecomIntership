@@ -1,4 +1,4 @@
-package SecondTask;
+package SecondTaskArchitecture;
 
 @FunctionalInterface
 interface GroupCriterion {

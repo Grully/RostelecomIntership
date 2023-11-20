@@ -1,4 +1,4 @@
-package SecondTask;
+package SecondTaskArchitecture;
 
 public class DataGroup {
     private final Person[][] elementData;
